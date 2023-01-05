@@ -1,4 +1,4 @@
-enum 50145 "Web Order Type"
+enum 50145 "FA Values"
 {
     Extensible = true;
 
@@ -6,12 +6,12 @@ enum 50145 "Web Order Type"
     {
         Caption = ' ';
     }
-    value(1; "Sales Order")
+    value(1; "Consumable")
     {
-        Caption = 'Sales Order';
+        Caption = 'Consumable';
     }
-    value(2; "Sales Quote")
+    value(2; "Non-Consumable")
     {
-        Caption = 'Sales Quote';
+        Caption = 'Non-Consumable';
     }
 }
